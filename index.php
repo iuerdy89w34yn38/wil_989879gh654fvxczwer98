@@ -120,8 +120,8 @@ animation: AnimationName 11s linear infinite;
 
 	<!-- Slider
 		============================================= -->
-		<?php // include 'include/slider.php'; ?>
-		<!-- Content
+		<?php  include 'include/slider.php'; ?>
+		<!-- Content -->
 		============================================= 
 		<section id="content">
 
@@ -291,7 +291,7 @@ animation: AnimationName 11s linear infinite;
 				</div>
 
 
-			-->
+
 
 
 				<div class="section notopmargin noborder nobottommargin" >
