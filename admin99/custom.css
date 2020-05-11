@@ -1,0 +1,44 @@
+
+/* Custom Styles */
+
+
+
+ #logo img {
+    height: 120px;
+    }
+
+
+
+#primary-menu ul li > a {
+    color: #02dcfd;
+}
+
+
+#header.full-header #logo {
+
+    border-right: none;
+}
+
+
+#copyrights {
+    padding: 15px;
+    background-color: #029dce;
+    font-size: 14px;
+    line-height: 1.8;
+    height: 50px;
+}
+
+
+.note-popover .popover-content, .note-toolbar {
+
+    background: linear-gradient(90deg, rgba(28,164,208,1) 0%, rgba(0,212,255,1) 47%, rgba(28,164,208,1) 100%);
+    }
+
+    .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+
+    min-height: 500px;
+}
+
+#wrapper{
+    min-height: 600px !important;
+}
