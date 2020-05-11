@@ -5,7 +5,7 @@
 	<?php include 'include/head.php'; ?>
 	<!-- Document Title
 	============================================= -->
-	<title>INDEX | Canvas</title>
+	<title>WilCode | The most Professional, Reliable and Budget-Friendly Solution.</title>
 
 </head>
 
