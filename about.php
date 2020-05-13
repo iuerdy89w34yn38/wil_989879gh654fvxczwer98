@@ -27,19 +27,13 @@
 
 
 
-
-
-
-
-
-
 		<!-- Footer
 		============================================= -->
 	
 			<?php 	include 'include/footer.php'; ?>
 
 			
-	</div> #Fotter
+	</div>
 
 
 </body>

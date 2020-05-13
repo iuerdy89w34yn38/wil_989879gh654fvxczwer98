@@ -1,3 +1,5 @@
+<?php if(!empty($_GET['page'])){ ?>
+
 <section>
 <?php echo $post ?>	
 
@@ -8,3 +10,6 @@
 	<?php echo $keywords ?>
 	<?php echo $desp ?>
 </p>
+
+<?php } ?>
+

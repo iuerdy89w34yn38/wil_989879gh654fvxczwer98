@@ -13,7 +13,6 @@ $post = $row['post'];
 $parent = $row['parent']; 
 $slug = $row['slug'];
 }
-}
 ?>
 	<meta name="keywords" content="<?php echo $keywords ?>"/>
 	<meta name="description" content="<?php echo $desp ?>"/>
@@ -36,12 +35,12 @@ $slug = $row['slug'];
 	<meta name="coverage" content="Worldwide">
 	<meta name="distribution" content="Global">
 	<meta name="rating" content="General">
-	<meta name="revisit-after" content="7 days">
+	<meta name="revisit-after" content="3 days">
 	<meta http-equiv="Expires" content="0">
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
 
-	<meta name="og:title" content="  | WilCode"/>
+	<meta name="og:title" content=" <?php echo $title ?> | WilCode"/>
 	<meta name="og:description" content=""/>
 
 
@@ -57,3 +56,6 @@ $slug = $row['slug'];
 		<!-- Document Title
 		============================================= -->
 		<title><?php echo $title ?> | WilCode </title>
+
+
+<?php } ?>

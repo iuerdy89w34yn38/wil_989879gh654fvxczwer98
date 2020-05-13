@@ -37,16 +37,22 @@
 						<ul>
 							<li><a href="about"><div><i class="icon-building"></i>About</div></a>
 								<ul  data-animate="pulse" data-speed="900" style="  animation-duration: 0.3s;" >
-									<li><a href="about-company"><div> <i class="icon-info-circle"></i> About - Company</div></a></li>
-									<li><a href="about-mission"><div><i class="icon-line-paper"></i>Mission Statement</div></a></li>
-									<li><a href="about-prespective"><div><i class="icon-hornbill"></i> Prespective</div></a></li>
-									<li><a href="about-leaders"><div><i class="icon-users1"></i> Leaders & Teams</div></a></li>
+
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='about' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
 									
 
 								</ul>
 							</li>
 
-							<li class=" mega-menu"><a href="websites"><div><i class="icon-laptop-code"></i> Website</div></a>
+							<li class=" mega-menu"><a href="web"><div><i class="icon-laptop-code"></i> Website</div></a>
 								<div class="mega-menu-content style-2 clearfix" data-animate="pulse" data-speed="900" style="  animation-duration: 0.3s;" >
 									<ul class="menubg mega-menu-column col-lg-3">
 										<div class="" >
@@ -64,15 +70,19 @@
 										</div>
 									</ul>
 									<ul class="mega-menu-column col-lg-3">
-										<li class="mega-menu-title"><a href="web_development"><div><i class="icon-code"> </i> Web Development</div></a>
+										<li class="mega-menu-title"><a href="web"><div><i class="icon-code"> </i> Web Development</div></a>
 											<ul>
-												<li><a href="web-development-branding"><div>Branding</div></a></li>
-												<li><a href="web-development-magazine"><div>Magazine</div></a></li>
-												<li><a href="web-development-ecommerce"><div>E-Commerce</div></a></li>
-												<li><a href="web-development-blogging"><div>Blogging</div></a></li>
-												<li><a href="web-development-portfolio"><div>Portfolio</div></a></li>
-												<li><a href="web-development-landing-pages"><div>Landing Pages</div></a></li>
-												<li><a href="web-development-social-media"><div>Social Media</div></a></li>
+												<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='web' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+
+
 
 											</ul>
 										</li>
@@ -80,36 +90,46 @@
 									<ul class="mega-menu-column col-lg-3">
 										<li class="mega-menu-title"><a href="cms"><div> <i class="icon-cogs"> </i> Content Management </div></a>
 											<ul>
-												<li><a href="cms-wordpress"><div>Wordpress</div></a></li>
-												<li><a href="cms-drupal"><div>Drupal</div></a></li>
-												<li><a href="cms-joomla"><div>Joomala</div></a></li>
-												<li><a href="cms-magento"><div>Magento</div></a></li>
-												<li><a href="cms-typo3"><div>Typo3</div></a></li>
-												<li><a href="cms-dotcms"><div>DotCMS</div></a></li>
-												<li><a href="cms-sitecore"><div>SiteCore</div></a></li>
+												<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='cms' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+
 
 											</ul>
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-lg-3">
-										<li class="mega-menu-title"><a href="featured_designs"><div><i class="icon-magic"></i>Featured Designs</div></a>
+										<li class="mega-menu-title"><a href="designs"><div><i class="icon-magic"></i>Featured Designs</div></a>
 											<ul>
-												<li><a href="designs-agriculture"><div>Agriculture</div></a></li>
-												<li><a href="designs-automobiles"><div>Automobiles</div></a></li>
-												<li><a href="designs-business"><div>Business</div></a></li>
-												<li><a href="designs-construction"><div>Construction</div></a></li>
-												<li><a href="designs-events"><div>Events</div></a></li>
-												<li><a href="designs-law-firm"><div>Law Firms</div></a></li>
 
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='designs' LIMIT 6 " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+												
 												<li onmouseover="menuhide();" class="sub-menu"><a  href="#" class="sf-with-ul"><div>See More... <i style="float: right; vertical-align: baseline;"> > </i></div></a>
 												<ul id="menh" class="hidden menuhide" style="display: none !important;    position: absolute;    background: #fff;" class="sub-menu">
-													<li><a href="designs-medical"><div>Medical</div></a></li>
-													<li><a href="designs-photography"><div>Photography</div></a></li>
-													<li><a href="designs-real-estate"><div>Real Esate</div></a></li>
-													<li><a href="designs-resturant"><div>Resturant</div></a></li>
-													<li><a href="designs-online-shops"><div>Online Shops</div></a></li>
-													<li><a href="designs-weddings"><div>Weddings</div></a></li>
-
+						<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='designs' LIMIT 6,90 " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+													
 												</ul>
 											</li>
 											</ul>
@@ -124,13 +144,17 @@
 									<ul class="mega-menu-column col-5">
 										<li class="mega-menu-title"><a href="frontend"><div><i class="icon-drafting-compass"></i> FrontEnd</div></a>
 											<ul>
-												<li><a href="frontend-html5-css3"><div>HTML5 & CSS3</div></a></li>
-												<li><a href="frontend-bootstrap"><div>Bootstrap</div></a></li>
-												<li><a href="frontend-reactjs"><div>ReactJs</div></a></li>
-												<li><a href="frontend-typescript"><div>TypeScript</div></a></li>
-												<li><a href="frontend-elm"><div>Elm</div></a></li>
-												<li><a href="frontend-vuejs"><div>VueJS</div></a></li>
 
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='frontend' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+											
 
 											</ul>
 										</li>
@@ -138,41 +162,48 @@
 									<ul class="mega-menu-column col-5">
 										<li class="mega-menu-title"><a href="backend"><div><i class="icon-file-code"></i> BackEnd</div></a>
 											<ul>
-												<li><a href="backend-php"><div>PHP </div></a></li>
-												<li><a href="backend-laravel"><div>laravel </div></a></li>
-												<li><a href="backend-asp"><div>ASP .NET </div></a></li>
-												<li><a href="backend-python"><div>Python </div></a></li>
-												<li><a href="backend-nodejs"><div>NodeJS </div></a></li>
-												<li><a href="backend-ruby"><div>Ruby </div></a></li>
-												<li><a href="backend-cake"><div>Cake </div></a></li>
-
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='backend' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+											
+						
 											</ul>
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-5">
 										<li class="mega-menu-title"><a href="database"><div><i class="icon-server"></i> Database</div></a>
 											<ul>
-												<li><a href="database-mysql"><div>MySQL</div></a></li>
-												<li><a href="database-oracle"><div>Oracle</div></a></li>
-												<li><a href="database-mssql"><div>MS SQL Server</div></a></li>
-												<li><a href="database-mongodb"><div>MongoDB</div></a></li>
-												<li><a href="database-db2"><div>DB2</div></a></li>
-
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='database' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+											
 											</ul>
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-5">
 										<li class="mega-menu-title"><a href="mobile"><div> <i class="icon-mobile-alt"></i> Mobile</div></a>
 											<ul>
-												<li><a href="mobile-ios">IOS<div></div></a></li>
-												<li><a href="mobile-android">Android<div></div></a></li>
-												<li><a href="mobile-swift">Swift<div></div></a></li>
-												<li><a href="mobile-flutter">Flutter<div></div></a></li>
-												<li><a href="mobile-react">React Native<div></div></a></li>
-												<li><a href="mobile-iconic">Iconic<div></div></a></li>
-												<li><a href="mobile-appcelerator ">Appcelerator<div></div></a></li>
-
-
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='mobile' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
 											</ul>
 										</li>
 									</ul>
@@ -181,13 +212,15 @@
 										<li class="mega-menu-title"><a href="desktop"><div><i class="icon-tv"></i>Desktop</div></a>
 											<ul>
 
-												<li><a href="desktop-cplus"><div>C++</div></a></li>
-												<li><a href="desktop-chash"><div>C#</div></a></li>
-												<li><a href="desktop-netframework"><div>.NET Framework</div></a></li>
-												<li><a href="desktop-javafx"><div>JavaFX</div></a></li>
-												<li><a href="desktop-swift"><div>Swift</div></a></li>
-												<li><a href="desktop-objectivec"><div>Objective C</div></a></li>
-
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='desktop' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
 											</ul>
 										</li>
 									</ul>
@@ -231,8 +264,10 @@
 								</div>
 							</li>
 		
-							<li><a href="graphincs"><div><i class="icon-paint-brush"></i>Graphics</div></a>
+							<li><a href="graphics"><div><i class="icon-paint-brush"></i>Graphics</div></a>
 								<ul  data-animate="pulse" data-speed="900" style="  animation-duration: 0.3s;" >
+
+
 									<li><a href="graphics-adobe-photoshop"><div><img src="images/icons/ps.svg" class="menuico"> Adobe Photoshop</div></a></li>
 									<li><a href="graphics-adobe-illustrtator"><div><img src="images/icons/ai.svg" class="menuico"> Adobe Illustrator</div></a></li>
 									<li><a href="graphics-corel-draw"><div><img src="images/icons/cd.svg" class="menuico"> Corel Draw </div></a></li>
@@ -247,11 +282,16 @@
 									<ul class="mega-menu-column col-5">
 										<li class="mega-menu-title"><a href="#"><div> <i class="icon-printer"></i>Print Marketing</div></a>
 											<ul>
-												<li><a href="promotions-logodesign">Logo Design<div></div></a></li>
-												<li><a href="promotions-businesscard">Business Cards<div></div></a></li>
-												<li><a href="promotions-brochers">Brochers & Catalogs <div></div></a></li>
-												<li><a href="promotions-envelops">Envelops & Covers <div></div></a></li>
-												
+
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='promotions' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
 
 
 
@@ -260,36 +300,54 @@
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-5">
-										<li class="mega-menu-title"><a href="digital_marketing"><div><i class="icon-ad"></i> Digital Marketing</div></a>
+										<li class="mega-menu-title"><a href="digital"><div><i class="icon-ad"></i> Digital Marketing</div></a>
 											<ul>
-												<li><a href="digital-marketing-product-shoots"><div>Product Shoots </div></a></li>
-												<li><a href="digital-marketing-web-banners"><div>Web Banners </div></a></li>
-												<li><a href="digital-marketing-responsive-ads"><div>Responsive Ads </div></a></li>
-												<li><a href="digital-marketing-email-templates"><div>Email Templates </div></a></li>
+
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='digital' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+
 
 
 											</ul>
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-5">
-										<li class="mega-menu-title"><a href="social_media"><div><i class="icon-bullhorn"></i> Social Media</div></a>
-											<ul>
-												<li><a href="social-media-facebook"><div>Facebook </div></a></li>
-												<li><a href="social-media-youtube"><div>Youtube </div></a></li>
-												<li><a href="social-media-instagram"><div>Instagram </div></a></li>
-												<li><a href="social-media-linkedin"><div>LinkedIn </div></a></li>
-
+										<li class="mega-menu-title"><a href="social"><div><i class="icon-bullhorn"></i> Social Media</div></a>
+											<ul>		
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='social' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
 
 											</ul>
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-5">
-										<li class="mega-menu-title"><a href="video_marketing"><div><i class="icon-video"></i> Video Marketing </div></a>
+										<li class="mega-menu-title"><a href="video"><div><i class="icon-video"></i> Video Marketing </div></a>
 											<ul>
-												<li><a href="video-marketing-logo-animation"><div>Logo Animation</div></a></li>
-												<li><a href="video-marketing-product-showcase"><div>Product Showcase</div></a></li>
-												<li><a href="video-marketing-company-profile"><div>Company Profile</div></a></li>
-												<li><a href="video-marketing-advertisment"><div>Advertisment</div></a></li>
+
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='video' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+								        $id = $row['id']; 
+								        $title = $row['title']; 
+								        $icon = $row['icon']; 
+								     	$parent = $row['parent']; 
+								      	$slug = $row['slug']; 
+								      ?>
+									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<?php } ?>
+									
 
 											</ul>
 										</li>

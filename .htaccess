@@ -8,7 +8,6 @@ RewriteEngine On
 
 RewriteRule ^(home)$ index.php?page_name=$1
 RewriteRule ^(index)$ index.php?page_name=$1
-#RewriteRule ^(projects)$ project.php?page_name=$1
 
 
 
@@ -16,12 +15,22 @@ RewriteRule ^(index)$ index.php?page_name=$1
 
 RewriteRule ^about-([^/]+)$ about.php?page=$1
 RewriteRule ^web-([^/]+)$ web.php?page=$1
-RewriteRule ^dprojects-([^/]+)$ dproject.php?dproject_name=$1
-RewriteRule ^services-([^/]+)$ service.php?service_name=$1
-RewriteRule ^dservices-([^/]+)$ dservice.php?dservice_name=$1
-RewriteRule ^clients-([^/]+)$ client.php?client_name=$1
-RewriteRule ^gallery-([^/]+)$ gallary.php?gallery_name=$1
-RewriteRule ^pages-([^/]+)$ page.php?pages_name=$1
+RewriteRule ^cms-([^/]+)$ cms.php?page=$1
+RewriteRule ^designs-([^/]+)$ designs.php?page=$1
+RewriteRule ^frontend-([^/]+)$ frontend.php?page=$1
+RewriteRule ^backend-([^/]+)$ backend.php?page=$1
+RewriteRule ^database-([^/]+)$ database.php?page=$1
+RewriteRule ^mobile-([^/]+)$ mobile.php?page=$1
+RewriteRule ^desktop-([^/]+)$ desktop.php?page=$1
+RewriteRule ^graphics-([^/]+)$ graphics.php?page=$1
+RewriteRule ^promotions-([^/]+)$ promotions.php?page=$1
+RewriteRule ^digital-([^/]+)$ digital.php?page=$1
+RewriteRule ^social-([^/]+)$ social.php?page=$1
+RewriteRule ^video-([^/]+)$ video.php?page=$1
+
+
+
+
 RewriteRule ^cpages-([^/]+)$ cpage.php?cpage_name=$1
 
 

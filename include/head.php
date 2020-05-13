@@ -6,6 +6,7 @@
 	<!-- Stylesheets
 	============================================= -->
 
+	<link rel="stylesheet" href="custom.css" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />

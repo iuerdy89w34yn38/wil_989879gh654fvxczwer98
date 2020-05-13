@@ -2,7 +2,7 @@
 <?php 
 session_start();
 if(isset($_SESSION['admin'])){
-  header("location:index.php");
+  header("location:admin99/index.php");
 }
 ?>
 <html dir="ltr" lang="en-US">
@@ -22,15 +22,15 @@ if(isset($_SESSION['admin'])){
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
-		============================================= -->
-		<?php 	include 'include/header.php'; ?>
-
 
 
 		<!-- Content
 		============================================= -->
 		<section id="content">
+      <br>
+      <br>
+      <br>
+      <br>
 <div class="row">
       <div class="col-md-4">
       </div>
@@ -86,7 +86,7 @@ if(isset($_SESSION['admin'])){
                        $_SESSION['admin']=$username; // Initializing Session
                       
                   
-                       header("location:index.php"); // Redirecting To Other Page
+                       header("location:admin99/index.php"); // Redirecting To Other Page
                        } else {
                         echo "Username or Password is Invalid";
 

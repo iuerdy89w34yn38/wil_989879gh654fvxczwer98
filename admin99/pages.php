@@ -17,13 +17,13 @@
     $keywords=$_POST['keywords'];
     $desp=$_POST['desp'];
     $post=$_POST['post'];
+    $icon=$_POST['icon'];
 
-    $sql = "UPDATE pages SET `title` = '$title',`keywords` = '$keywords',`desp` = '$desp',`post` = '$post' WHERE `id` =$id";
+    $sql = "UPDATE pages SET `title` = '$title',`keywords` = '$keywords',`desp` = '$desp',`icon` = '$icon',`post` = '$post' WHERE `id` =$id";
 
     mysqli_query($con, $sql) ;
     ($msg=mysqli_error($con));
     if(empty($msg))  $msg="Updated";
-
 
   }
   ?>
@@ -63,7 +63,6 @@
       ============================================= -->
       <div class="container">
 
-
         <?php if(!empty($_GET['id'])){ ?>
 
           <?php $id=$_GET['id']; ?>
@@ -79,6 +78,7 @@
             $keywords = $row['keywords']; 
             $desp = $row['desp']; 
             $post = $row['post']; 
+            $icon = $row['icon']; 
       $parent = $row['parent']; 
       $slug = $row['slug'];
 
@@ -94,17 +94,16 @@
             <form method="post" action="" enctype="multipart/form-data">
 
 
-
-
-
               <tr>
                <td>
                 Title: 
               </td>
               <td>
-                <input type="text" class="form-control" name="title" value="<?php echo $title ?>">
+                <input style="" type="text" class="form-control" name="title" value="<?php echo $title ?>">
               </td>
             </tr>
+
+
 
 
             <tr>
@@ -129,6 +128,18 @@
 
           </td>
         </tr>
+
+        
+              <tr>
+               <td>
+                Icon:  - <i class="<?php echo $icon ?>"></i>
+              </td>
+              <td>
+                <input type="text" class="form-control" name="icon" value="<?php echo $icon ?>">
+              </td>
+            </tr>
+
+
           <tr>
            <td colspan="2">
             <center>
@@ -143,7 +154,13 @@
 
 <br>
 
-  <textarea id="summernote" rows="100"  style="min-height: 600px" class="" name="post"><?php echo $post ?></textarea>
+  <textarea id="summernote" rows="100"  style="min-height: 600px" class="" name="post">
+    <div class="container">
+        <?php echo $post ?>
+          
+    </div>
+  </textarea>
+
 
 
 
