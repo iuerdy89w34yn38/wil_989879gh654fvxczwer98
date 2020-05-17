@@ -1,7 +1,15 @@
 <?php include 'include/connect.php'; ?>
-<?php if(!empty($_GET['page'])){
-	$slug = $_GET['page'];
+
+<?php
+ if(!empty($_GET['page'])){	$slug = $_GET['page'];
 $rows =mysqli_query($con,"SELECT * FROM pages where `slug`='$slug' ") or die(mysqli_error($con));
+}else{
+
+$ppage =  basename($_SERVER['REQUEST_URI']);
+$rows =mysqli_query($con,"SELECT * FROM ppages where `slug`='$ppage' ") or die(mysqli_error($con));
+}
+
+if(!empty($rows)){
 
 while($row=mysqli_fetch_array($rows)){
 
@@ -57,5 +65,4 @@ $slug = $row['slug'];
 		============================================= -->
 		<title><?php echo $title ?> | WilCode </title>
 
-
-<?php } ?>
+<?php }  ?>

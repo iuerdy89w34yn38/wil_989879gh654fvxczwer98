@@ -280,7 +280,7 @@
 							<li class="mega-menu"><a href="promotions"><div> <i class="icon-flag21"></i> Promotions </div></a>
 								<div class="mega-menu-content style-2 clearfix" data-animate="pulse" data-speed="900" style="  animation-duration: 0.3s;"  >
 									<ul class="mega-menu-column col-5">
-										<li class="mega-menu-title"><a href="#"><div> <i class="icon-printer"></i>Print Marketing</div></a>
+										<li class="mega-menu-title"><a href="promotions"><div> <i class="icon-printer"></i>Print Marketing</div></a>
 											<ul>
 
 									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='promotions' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
@@ -303,7 +303,7 @@
 										<li class="mega-menu-title"><a href="digital"><div><i class="icon-ad"></i> Digital Marketing</div></a>
 											<ul>
 
-									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='digital' " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
+									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='digital'  ORDER BY id" ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
 								        $id = $row['id']; 
 								        $title = $row['title']; 
 								        $icon = $row['icon']; 

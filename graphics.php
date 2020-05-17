@@ -13,7 +13,7 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
+		<!-- Header 
 		============================================= -->
 		<?php 	include 'include/header.php'; ?>
 
@@ -24,13 +24,6 @@
 		<!-- Body
 		============================================= -->
 		<?php include 'include/pagebody.php'; ?>
-
-
-
-
-
-
-
 
 
 		<!-- Footer

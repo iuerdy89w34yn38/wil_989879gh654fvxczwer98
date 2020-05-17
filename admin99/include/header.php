@@ -33,6 +33,8 @@
 							</li>
 							<li><a href="port.php"><div><i class="icon-windows1"></i> Portfolio </div></a>
 							</li>
+							<li><a href="ppages.php"><div><i class="icon-newspaper3"></i>Parent Pages </div></a>
+							</li>
 							<li><a href="pages.php"><div><i class="icon-newspaper3"></i> Pages </div></a>
 							</li>
 

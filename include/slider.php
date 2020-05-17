@@ -1,6 +1,6 @@
 	<section id="slider" class="slider-element revslider-wrap slider-parallax clearfix">
 			<div class="slider-parallax-inner">
-				<div id="rev_slider_579_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="default-slider" style="padding:0px;">
+				<div id="rev_slider_579_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="slider" style="padding:0px;">
 					<!-- START REVOLUTION SLIDER 5.1.4 fullscreen mode -->
 					<div id="rev_slider_579_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.4">
 						<ul>   <!-- SLIDE  -->
@@ -9,22 +9,7 @@
 								<img src="images/videos/explore-poster.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 								<!-- LAYERS -->
 
-								<!-- LAYER NR. 1 
-								<div class="tp-fade fadeout fullscreenvideo rs-background-video-layer"
-									data-forcerewind="on"
-									data-volume="mute"
-									data-videowidth="100%"
-									data-videoheight="100%"
-									data-videomp4="images/videos/explore.mp4"
-									data-videopreload="preload"
-									data-videoloop="none"
-									data-forceCover="1"
-									data-aspectratio="16:9"
-									data-autoplay="true"
-									data-autoplayonlyfirsttime="false"
-									data-nextslideatend="true"
-									>
-								</div> -->
+								
 								<!-- LAYER NR. 1 -->
 								<div class="tp-fade fadeout fullscreenvideo rs-background-video-layer videobg"
 									>

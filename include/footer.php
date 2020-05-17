@@ -12,20 +12,9 @@
 
 							<div class="widget clearfix">
 
-								<img src="images/logo.png" alt="" class="footer-logo">
+								<img src="images/logo/logo-dark.png" alt="" class="footer-logo">
 
 								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-								<div style="">
-									<address>
-										<strong>Headquarters:</strong><br>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-								</div>
 
 							</div>
 
@@ -35,16 +24,14 @@
 
 							<div class="widget widget_links clearfix">
 
-								<h4>Blogroll</h4>
+								<h4>Our Technologies</h4>
 
 								<ul>
-									<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-									<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-									<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-									<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-									<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-									<li><a href="https://wordpress.org/news/">WordPress Blog</a></li>
-									<li><a href="https://planet.wordpress.org/">WordPress Planet</a></li>
+									<li class="mega-menu-title"><a href="frontend"><div><i class="icon-drafting-compass"></i> FrontEnd</div></a></li>
+									<li class="mega-menu-title"><a href="backend"><div><i class="icon-file-code"></i> BackEnd</div></a></li>
+									<li class="mega-menu-title"><a href="database"><div><i class="icon-server"></i> Database</div></a></li>
+									<li class="mega-menu-title"><a href="mobile"><div> <i class="icon-mobile-alt"></i> Mobile</div></a></li>
+									<li class="mega-menu-title"><a href="desktop"><div><i class="icon-tv"></i> Desktop</div></a></li>
 								</ul>
 
 							</div>
@@ -54,41 +41,21 @@
 						<div class="col_one_third col_last">
 
 							<div class="widget clearfix">
-								<h4>Recent Posts</h4>
+								<h4>Experiance it!</h4>
 
 								<div id="post-list-footer">
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
+									
+								<div style="">
+									<address>
+										<strong>Headquarters:</strong><br>
+										79 Model Town<br>
+										Lahore, Pakistan<br>
+									</address>
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (92) 349 4965879<br>
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (92) 320 4157040<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> info@wilcode.com
+								</div>
 
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
 								</div>
 							</div>
 
@@ -98,23 +65,7 @@
 
 					<div class="col_one_third col_last">
 
-						<div class="widget clearfix" style="margin-bottom: -20px;">
 
-							<div class="row">
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Total Downloads</h5>
-								</div>
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Clients</h5>
-								</div>
-
-							</div>
-
-						</div>
 
 						<div class="widget subscribe-widget clearfix">
 							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
@@ -168,7 +119,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+						Copyrights &copy; 2020 All Rights Reserved by WilCode.<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
@@ -224,7 +175,7 @@
 						</div>
 
 						<div id="oldref">
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+						<i class="icon-envelope2"></i> info@wilcode.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +92-349-4964879 <span class="middot">&middot;</span> <i class="icon-skype2"></i> WilCodePK
 						</div>
 
 
@@ -261,119 +212,4 @@
 
 		</footer><!-- #footer end -->
 
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- External JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-
-	<script>
-
-		var tpj = jQuery;
-
-		var revapi202;
-		tpj(document).ready(function() {
-			if (tpj("#rev_slider_579_1").revolution == undefined) {
-				revslider_showDoubleJqueryError("#rev_slider_579_1");
-			} else {
-				revapi202 = tpj("#rev_slider_579_1").show().revolution({
-					sliderType: "standard",
-					jsFileLocation: "include/rs-plugin/js/",
-					sliderLayout: "fullscreen",
-					dottedOverlay: "true",
-					delay: 8000,
-					responsiveLevels: [1140, 1024, 778, 480],
-					visibilityLevels: [1140, 1024, 778, 480],
-					gridwidth: [1140, 1024, 778, 480],
-					gridheight: [728, 768, 960, 720],
-					lazyType: "none",
-					shadow: 0,
-					spinner: "on",
-					stopLoop: "yes",
-					stopAfterLoops: 0,
-					stopAtSlide: 1,
-					shuffle: "off",
-					autoHeight: "on",
-					fullScreenAutoWidth: "on",
-					fullScreenAlignForce: "off",
-					fullScreenOffsetContainer: "",
-					fullScreenOffset: "",
-					disableProgressBar: "off",
-					hideThumbsOnMobile: "on",
-					hideSliderAtLimit: 0,
-					hideCaptionAtLimit: 0,
-					hideAllCaptionAtLilmit: 0,
-					debugMode: false,
-					fallbacks: {
-						simplifyAll:"off",
-						disableFocusListener:false,
-					},
-					parallax: {
-						type:"mouse",
-						origo:"slidercenter",
-						speed:300,
-						levels:[2,4,6,8,10,12,14,16,18,20,22,24,49,50,51,55],
-					},
-					navigation: {
-						keyboardNavigation:"on",
-						keyboard_direction: "horizontal",
-						mouseScrollNavigation:"off",
-						onHoverStop:"off",
-						touch:{
-							touchenabled:"on",
-							swipe_threshold: 75,
-							swipe_min_touches: 1,
-							swipe_direction: "horizontal",
-							drag_block_vertical: false
-						},
-						arrows: {
-							style: "hades",
-							enable: true,
-							hide_onmobile: false,
-							hide_onleave: false,
-							tmp: '',
-							left: {
-								h_align: "left",
-								v_align: "center",
-								h_offset: 10,
-								v_offset: 0
-							},
-							right: {
-								h_align: "right",
-								v_align: "center",
-								h_offset: 10,
-								v_offset: 0
-							}
-						}
-					}
-				});
-				revapi202.bind("revolution.slide.onloaded",function (e) {
-					setTimeout( function(){ SEMICOLON.slider.sliderParallaxDimensions(); }, 200 );
-				});
-
-				revapi202.bind("revolution.slide.onchange",function (e,data) {
-					SEMICOLON.slider.revolutionSliderMenu();
-				});
-			}
-		}); /*ready*/
-
-	</script>
+<?php include 'include/bottom.php' ?>
