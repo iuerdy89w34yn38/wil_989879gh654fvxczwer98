@@ -2,10 +2,9 @@ Options +FollowSymLinks
 
 RewriteEngine On
 RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.+)$ $1.php [L]
 
 # Rewrite for index.php,cars.php,...
 
