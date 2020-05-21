@@ -16,8 +16,10 @@
     $title=$_POST['title'];
     $keywords=$_POST['keywords'];
     $desp=$_POST['desp'];
-    $post=$_POST['post'];
+    $post1=$_POST['post'];
     $icon=$_POST['icon'];
+
+    $post=str_replace("'", "''", $post1);
 
     $sql = "UPDATE pages SET `title` = '$title',`keywords` = '$keywords',`desp` = '$desp',`icon` = '$icon',`post` = '$post' WHERE `id` =$id";
 
@@ -155,10 +157,7 @@
 <br>
 
   <textarea id="summernote" rows="100"  style="min-height: 600px" class="" name="post">
-    <div class="container">
         <?php echo $post ?>
-          
-    </div>
   </textarea>
 
 

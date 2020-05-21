@@ -25,7 +25,7 @@
         data-animate="fadeIn" data-delay="1200" alt="iPad">
 </div>
 </div>
-<a href="#" class="button button-full button-dark center tright bottommargin-lg">
+<a href="//demo.wilcode.com/online-shops" class="button button-full button-dark center tright bottommargin-lg">
 <div class="container clearfix">
     We have more than 25+ Designs and Layouts for Online Shop. <strong> Select Design</strong> <i
         class="icon-caret-right" style="top:4px;"></i>
