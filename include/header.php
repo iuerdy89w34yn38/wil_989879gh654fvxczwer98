@@ -115,7 +115,7 @@
 								     	$parent = $row['parent']; 
 								      	$slug = $row['slug']; 
 								      ?>
-									<li><a href="//demo.wilcode.com/-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<li><a href="//demo.wilcode.com/<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
 									<?php } ?>
 												
 												<li onmouseover="menuhide();" class="sub-menu"><a  href="#" class="sf-with-ul"><div>See More... <i style="float: right; vertical-align: baseline;"> > </i></div></a>
