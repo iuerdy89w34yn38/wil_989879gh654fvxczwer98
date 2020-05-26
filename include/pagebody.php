@@ -1,4 +1,5 @@
 <?php if(!empty($_GET['page'])){ ?>
+<?php if(!empty($desp)){ ?>
 
 <section>
 <?php echo $post ?>	
@@ -11,9 +12,10 @@
 	<?php echo $desp ?>
 </p>
 
-<?php } ?>
+<?php }  }?>
 
 <?php if(!empty($ppage	)){ ?>
+<?php if(!empty($desp)){ ?>
 
 <section>
 <?php echo $post ?>	
@@ -26,5 +28,5 @@
 	<?php echo $desp ?>
 </p>
 
-<?php } ?>
+<?php } } ?>
 

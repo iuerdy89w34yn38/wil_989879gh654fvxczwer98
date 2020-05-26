@@ -48,8 +48,8 @@
 								<div style="">
 									<address>
 										<strong>Headquarters:</strong><br>
-										79 Model Town<br>
-										Lahore, Pakistan<br>
+										Office 18, 4th Floor,Arfa Tower<br>
+										Ferozepur Road, Lahore, Pakistan<br>
 									</address>
 									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (92) 349 4965879<br>
 									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (92) 320 4157040<br>

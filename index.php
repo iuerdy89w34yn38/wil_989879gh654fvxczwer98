@@ -143,7 +143,7 @@
     </style>
     <!-- Document Wrapper
 	============================================= -->
-    <div id="wrapper" class="clearfix">
+    <div id="" class="clearfix">
 
         <!-- Header
 		============================================= -->

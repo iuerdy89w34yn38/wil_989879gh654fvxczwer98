@@ -1,7 +1,9 @@
 <?php include 'include/connect.php'; ?>
-
 <?php
- if(!empty($_GET['page'])){	$slug = $_GET['page'];
+ if(!empty($_GET['page'])){	
+//echo $slug = $_GET['page'];
+$slugold = $_GET['page'];
+$slug = substr($slugold, 0,-4);
 $rows =mysqli_query($con,"SELECT * FROM pages where `slug`='$slug' ") or die(mysqli_error($con));
 }else{
 
@@ -20,7 +22,7 @@ $desp = $row['desp'];
 $post = $row['post']; 
 $parent = $row['parent']; 
 $slug = $row['slug'];
-}
+
 ?>
 	<meta name="keywords" content="<?php echo $keywords ?>"/>
 	<meta name="description" content="<?php echo $desp ?>"/>
@@ -65,4 +67,4 @@ $slug = $row['slug'];
 		============================================= -->
 		<title><?php echo $title ?> | WilCode </title>
 
-<?php }  ?>
+<?php } }  ?>
