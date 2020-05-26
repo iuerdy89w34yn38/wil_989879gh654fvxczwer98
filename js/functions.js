@@ -2114,7 +2114,8 @@ var SEMICOLON = SEMICOLON || {};
 
 			var $dataAnimateEl = $('[data-animate]');
 			if( $dataAnimateEl.length > 0 ){
-				if( $body.hasClass('device-xl') || $body.hasClass('device-lg') || $body.hasClass('device-md') ){
+				// if( $body.hasClass('device-xl') || $body.hasClass('device-lg') || $body.hasClass('device-md') ){
+				if( 1==1 ){
 					$dataAnimateEl.each(function(){
 						var element = $(this),
 							animationOut = element.attr('data-animate-out'),

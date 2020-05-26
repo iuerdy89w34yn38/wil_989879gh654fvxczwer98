@@ -264,12 +264,12 @@
 								data-elementdelay="0.01"
 								data-endelementdelay="0.1"
 								data-endspeed="1300"
-								data-endeasing="Power4.easeIn" style="z-index: 11;"><a href="#" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Check Now</span> <i class="icon-angle-right"></i></a></div>
+								data-endeasing="Power4.easeIn" style="z-index: 11;"><a href="//demo.wilcode.com" class="button button-border button-white button-light button-large button-rounded tright nomargin"><span>Check Now</span> <i class="icon-angle-right"></i></a></div>
 
 							</li>
-							<li data-transition="slideup" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/rev/main/s3-thumb.jpg" data-delay="10000"  data-saveperformance="off"  data-title="Responsive &amp; Retina">
+							<li data-transition="slideup" data-slotamount="1" data-masterspeed="1500" data-thumb="images/slider/res.jpg" data-delay="10000"  data-saveperformance="off"  data-title="Responsive &amp; Retina">
 							<!-- MAIN IMAGE -->
-								<img src="images/slider/rev/main/s3.jpg"  alt="kenburns6"  data-bgposition="left top" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right bottom">
+								<img src="images/slider/res.jpg"  alt="kenburns6"  data-bgposition="left top" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130" data-scaleend="100" data-bgpositionend="right bottom">
 								<!-- LAYERS -->
 
 								<!-- LAYER NR. 2 -->
@@ -285,11 +285,11 @@
 								data-elementdelay="0.01"
 								data-endelementdelay="0.1"
 								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3; white-space: nowrap; color: #222;">Bootstrap 3+ Compatible</div>
+								data-endeasing="Power4.easeIn" style="z-index: 3; white-space: nowrap; color: #fff;font-size: 28px">All Devices Compatible</div>
 
 								<div class="tp-caption ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
 								data-x="37"
-								data-y="180"
+								data-y="200"
 								data-transform_in="x:10;y:0;z:0;rotationY:120;rotationZ:0;scaleX:0.8;scaleY:0.8;skewX:0;s:600;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 50%;"
 								data-speed="600"
 								data-start="1700"
@@ -299,7 +299,7 @@
 								data-elementdelay="0.1"
 								data-endelementdelay="0.1"
 								data-endspeed="1000"
-								data-endeasing="Power4.easeIn" style="z-index: 3; white-space: nowrap; color: #222; line-height: 1.2; max-width: 450px; width: 450px; white-space: normal;">Responsive Retina Graphics</div>
+								data-endeasing="Power4.easeIn" style="z-index: 3; white-space: nowrap; color: #fff; line-height: 1.2; max-width: 450px; width: 450px; white-space: normal;">Responsive Website Layout with Multiple Devices Support</div>
 							</li>
 						</ul>
 					</div>

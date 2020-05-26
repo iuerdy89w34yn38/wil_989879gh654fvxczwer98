@@ -105,7 +105,7 @@
 										</li>
 									</ul>
 									<ul class="mega-menu-column col-lg-3">
-										<li class="mega-menu-title"><a href="designs"><div><i class="icon-magic"></i>Featured Designs</div></a>
+										<li class="mega-menu-title"><a href="//demo.wilcode.com"><div><i class="icon-magic"></i>Featured Designs</div></a>
 											<ul>
 
 									<?php $rows =mysqli_query($con,"SELECT * FROM pages where parent='designs' LIMIT 6 " ) or die(mysqli_error($con)); while($row=mysqli_fetch_array($rows)){
@@ -115,7 +115,7 @@
 								     	$parent = $row['parent']; 
 								      	$slug = $row['slug']; 
 								      ?>
-									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<li><a href="//demo.wilcode.com/-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
 									<?php } ?>
 												
 												<li onmouseover="menuhide();" class="sub-menu"><a  href="#" class="sf-with-ul"><div>See More... <i style="float: right; vertical-align: baseline;"> > </i></div></a>
@@ -127,7 +127,7 @@
 								     	$parent = $row['parent']; 
 								      	$slug = $row['slug']; 
 								      ?>
-									<li><a href="<?php echo $parent ?>-<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
+									<li><a href="//demo.wilcode.com/<?php echo $slug ?>"><div> <i class="<?php echo $icon ?>"></i> <?php echo $title ?></div></a></li>
 									<?php } ?>
 													
 												</ul>

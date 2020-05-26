@@ -27,7 +27,7 @@
     <div class="container clean">
 
         <div id="oc-images slider" class="clean owl-carousel carousel-widget" data-margin="20" data-nav="true"
-        data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="4"
+        data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="5"
         data-loop="true" data-autoplay="2000">
 
         <div class="oc-item">
@@ -82,14 +82,14 @@
 
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t1.png">
+                <img class="teamimg" src="images/team/t5.png">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
             </div>
             <div class="portfolio-desc">
-                <h3><a href="portfolio-single.html">Hamza Pervaiz</a></h3>
-                <span>Website & Desktop Developer</span>
+                <h3><a href="portfolio-single.html">Rana Ans Shahzad</a></h3>
+                <span>Mobile Application Developer</span>
             </div>
         </div>
 

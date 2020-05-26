@@ -17,10 +17,12 @@ while($row=mysqli_fetch_array($rows)){
 
 $id = $row['id']; 
 $title = $row['title']; 
+$btitle = $row['title']; 
 $keywords = $row['keywords']; 
 $desp = $row['desp']; 
 $post = $row['post']; 
 $parent = $row['parent']; 
+$bparent = $row['parent']; 
 $slug = $row['slug'];
 
 ?>
