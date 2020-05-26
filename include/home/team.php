@@ -27,7 +27,7 @@
     <div class="container clean">
 
         <div id="oc-images slider" class="clean owl-carousel carousel-widget" data-margin="20" data-nav="true"
-        data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="5"
+        data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="4"
         data-loop="true" data-autoplay="2000">
 
         <div class="oc-item">
