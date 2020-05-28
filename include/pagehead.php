@@ -58,7 +58,7 @@ $slug = $row['slug'];
 
 	<meta name="og:type" content="website"/>
 	<meta name="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
-	<meta name="og:image" content="images/fav.png"/>
+	<meta name="og:image" content="favicon.png"/>
 	<meta name="og:site_name" content="WilCode"/>
 	<meta name="fb:page_id" content="pageid" />
 	<meta name="og:email" content="info@wilcode.com"/>
