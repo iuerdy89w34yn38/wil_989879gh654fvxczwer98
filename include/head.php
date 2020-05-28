@@ -59,6 +59,13 @@
 	<meta property="fb:page_id" content="WilCodePK" />
 	<meta property="og:email" content="info@wilcode.com"/>
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wilcodepk">
+<meta name="twitter:title" content="MAINTAIN YOUR BUSINESS EVEN IN LOCKDOWN!">
+<meta name="twitter:description" content="Due to Coronavirus Pandemic, Physical Businesses are rolling down.
+Create your Online Presence by building Online Shops. With your Own E-Commerce Store you can Sell your Products and Work from Home.">
+<meta name="twitter:image" content="https://pbs.twimg.com/media/EZF0DJxXYAAYG8-?format=jpg&name=4096x4096">
+
 
 
 	<!-- Stylesheets
