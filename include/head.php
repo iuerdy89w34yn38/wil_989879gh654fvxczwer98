@@ -77,6 +77,7 @@ Create your Online Presence by building Online Shops. With your Own E-Commerce S
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/spinner.css" type="text/css" />
 	<link rel="stylesheet" href="custom.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />

@@ -1,3 +1,7 @@
+<!--CSS Spinner-->
+<?php include 'include/spinner.php'; ?>
+
+
 <script type="text/javascript">
 	
 	function menuhide() {
