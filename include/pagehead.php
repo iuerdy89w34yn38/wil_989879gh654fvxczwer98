@@ -52,16 +52,14 @@ $slug = $row['slug'];
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
 
-	<meta name="og:title" content=" <?php echo $title ?> | WilCode"/>
-	<meta name="og:description" content=""/>
-
-
-	<meta name="og:type" content="website"/>
-	<meta name="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
-	<meta name="og:image" content="favicon.png"/>
-	<meta name="og:site_name" content="WilCode"/>
-	<meta name="fb:page_id" content="pageid" />
-	<meta name="og:email" content="info@wilcode.com"/>
+	<meta property="og:title" content=" <?php echo $title ?> | WilCode"/>
+	<meta property="og:description" content="<?php echo $desp ?>  | WilCode"/>
+	<meta property="og:type" content="Website"/>
+	<meta property="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
+	<meta property="og:image" content="https://wilcode.com/ogfavicon.png"/>
+	<meta property="og:site_name" content="WilCode"/>
+	<meta property="fb:page_id" content="WilCodePK" />
+	<meta property="og:email" content="info@wilcode.com"/>
 
 
 
