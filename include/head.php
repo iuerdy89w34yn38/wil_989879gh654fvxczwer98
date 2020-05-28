@@ -3,7 +3,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="WilCode" />
 	<meta name="keywords" content="website development, web development in pakistan"/>
-	<meta name="description" content="The Most Affordable Wesite Development in Pakistan"/>
+	<meta name="description" content="WILCODE aims to provide latest cutting edge technical services and solutions to our clients within a productive and innovative environment."/>
 	<meta name="subject" content="Wesite Development - WilCode">
 
 	<meta name="copyright"content="WilCode">
