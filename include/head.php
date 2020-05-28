@@ -1,4 +1,26 @@
 <?php include 'include/connect.php'; ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "WilCode",
+  "alternateName": "wil code",
+  "url": "https://wilcode.com/",
+  "logo": "https://wilcode.com/favicon.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+923494965879",
+    "contactType": "sales",
+    "areaServed": "PK",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://facebook.com/wilcodepk",
+    "https://twitter.com/wilcodepk",
+    "https://demo.wilcode.com/"
+  ]
+}
+</script>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="WilCode" />
