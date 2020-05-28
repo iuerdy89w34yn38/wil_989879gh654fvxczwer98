@@ -24,7 +24,7 @@
                         <div class="col-md-10">
                             <div class="portfolio-image" style="width:100%">
                                 <a href="https://thefitnessvibes.com/">
-                                    <img src="images/port/fitness.png" alt="THE FITNESS VIBES">
+                                    <img src="images/port/thumb/fitness.png" alt="THE FITNESS VIBES">
                                 </a>
                                 <div class="portfolio-overlay">
                                     <a href="images/port/fitness.png" class="left-icon" data-lightbox="image"><i
@@ -52,8 +52,8 @@
 
                     <article class="portfolio-item pf-media pf-icons">
                         <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/port/sky.png" alt="SkyLawn Travels">
+                            <a href="https:skylawntravels.com">
+                                <img src="images/port/thumb/sky.png" alt="SkyLawn Travels">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/sky.png" class="left-icon" data-lightbox="image"><i
@@ -70,8 +70,8 @@
 
                     <article class="portfolio-item pf-media pf-icons">
                         <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/port/ezee.png" alt="eZee Water">
+                            <a href="www.ezwatertechnology.com/?ref=1">
+                                <img src="images/port/thumb/ezee.png" alt="eZee Water">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/ezee.png" class="left-icon" data-lightbox="image"><i
@@ -93,9 +93,9 @@
                                 <div class="flexslider">
                                     <div class="slider-wrap">
                                         <div class="slide"><a href="http://ndcpak.com/?ref=1"><img
-                                                    src="images/port/ndc1.png" alt="NDC PAK"></a></div>
+                                                    src="images/port/thumb/ndc1.png" alt="NDC PAK"></a></div>
                                         <div class="slide"><a href="http://ndcpak.com/?ref=1"><img
-                                                    src="images/port/ndc2.png" alt="NDC PAK"></a></div>
+                                                    src="images/port/thumb/ndc2.png" alt="NDC PAK 2"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -118,8 +118,8 @@
 
                     <article class="portfolio-item pf-media pf-icons">
                         <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/port/invo.png" alt="Innovoir Rays">
+                            <a href="https://innoviorrays.com/?ref=1">
+                                <img src="images/port/thumb/invo.png" alt="Innovoir Rays">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/invo.png" class="left-icon" data-lightbox="image"><i
@@ -141,9 +141,9 @@
                                 <div class="flexslider">
                                     <div class="slider-wrap">
                                         <div class="slide"><a href="http://hiphop.pk/?ref=1"><img
-                                                    src="images/port/hiphop1.png" alt="HipHop"></a></div>
+                                                    src="images/port/thumb/hiphop1.png" alt="HipHop"></a></div>
                                         <div class="slide"><a href="http://hiphop.pk/?ref=1"><img
-                                                    src="images/port/hiphop2.png" alt="HipHop"></a></div>
+                                                    src="images/port/thumb/hiphop2.png" alt="HipHop"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://www.drzaheerir.com/?ref=1">
-                                <img src="images/port/drz.png" alt="Dr. Zaheer Sherazi">
+                                <img src="images/port/thumb/drz.png" alt="Dr. Zaheer Sherazi">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/drz.png" class="left-icon" data-lightbox="image"><i
@@ -182,7 +182,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://thethreadmasters.com/?ref=1">
-                                <img src="images/port/thread.png" alt="The Thread Masters">
+                                <img src="images/port/thumb/thread.png" alt="The Thread Masters">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/thread.png" class="left-icon" data-lightbox="image"><i
@@ -204,9 +204,9 @@
                                 <div class="flexslider">
                                     <div class="slider-wrap">
                                         <div class="slide"><a href="http://gwadargoldenedgemarketing.com/?ref=1"><img
-                                                    src="images/port/gawadar.png" alt="Gawadar GEM"></a></div>
+                                                    src="images/port/thumb/gawadar.png" alt="Gawadar GEM"></a></div>
                                         <div class="slide"><a href="http://gwadargoldenedgemarketing.com/?ref=1"><img
-                                                    src="images/port/gawadar2.png" alt="Gawadar GEM"></a></div>
+                                                    src="images/port/thumb/gawadar2.png" alt="Gawadar GEM"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://rightmoveinspain.com/?ref=1">
-                                <img src="images/port/spain.png" alt="Right Move in SPAIN">
+                                <img src="images/port/thumb/spain.png" alt="Right Move in SPAIN">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/spain.png" class="left-icon" data-lightbox="image"><i
@@ -249,9 +249,9 @@
                                 <div class="flexslider">
                                     <div class="slider-wrap">
                                         <div class="slide"><a href="http://tootar.io/?ref=1"><img
-                                                    src="images/port/tooter.png" alt="Tooter"></a></div>
+                                                    src="images/port/thumb/tooter.png" alt="Tooter"></a></div>
                                         <div class="slide"><a href="http://tootar.io/?ref=1"><img
-                                                    src="images/port/tooter2.png" alt="Tooter"></a></div>
+                                                    src="images/port/thumb/tooter2.png" alt="Tooter"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="https://mmcf.org.pk/?ref=1">
-                                <img src="images/port/mmcf.png" alt="MUSLIM MUTUAL COOPERATION FOUNDATION">
+                                <img src="images/port/thumb/mmcf.png" alt="MUSLIM MUTUAL COOPERATION FOUNDATION">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/mmcf.png" class="left-icon" data-lightbox="image"><i
@@ -292,7 +292,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://svadvertising.net/?ref=1">
-                                <img src="images/port/svad.png" alt=" S.V. Advertising">
+                                <img src="images/port/thumb/svad.png" alt=" S.V. Advertising">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/svad.png" class="left-icon" data-lightbox="image"><i
@@ -310,7 +310,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://svadvertising.net/?ref=1">
-                                <img src="images/port/lasani.png" alt=" S.V. Advertising">
+                                <img src="images/port/thumb/lasani.png" alt=" S.V. Advertising">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/lasani.png" class="left-icon" data-lightbox="image"><i
@@ -329,7 +329,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://mrsgroup.biz/?ref=1">
-                                <img src="images/port/mrs.png" alt=" MRS Goods Transport Company">
+                                <img src="images/port/thumb/mrs.png" alt=" MRS Goods Transport Company">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/mrs.png" class="left-icon" data-lightbox="image"><i
@@ -347,7 +347,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="http://www.montcalmmurree.com/?ref=1">
-                                <img src="images/port/mont.png" alt="THE MONT CALM SUITES">
+                                <img src="images/port/thumb/mont.png" alt="THE MONT CALM SUITES">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/mont.png" class="left-icon" data-lightbox="image"><i
@@ -365,7 +365,7 @@
                     <article class="portfolio-item">
                         <div class="portfolio-image">
                             <a href="https://qazigroupofschools.com/?ref=1">
-                                <img src="images/port/qazi.png" alt="Qazi Group of Schools">
+                                <img src="images/port/thumb/qazi.png" alt="Qazi Group of Schools">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="images/port/qazi.png" class="left-icon" data-lightbox="image"><i
