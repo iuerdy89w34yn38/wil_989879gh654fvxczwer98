@@ -30,9 +30,9 @@
 								data-endspeed="1000"
 								data-textAlign="center"
 								data-endeasing="Power4.easeIn" style="z-index: 3; white-space: nowrap;"> 
-								<img src="images/menu/wilal.png" data-animate="pulse" data-delay="2000" class="slideimg" > 
-								<img src="images/menu/b.png" data-animate="pulse" data-delay="2500" class="slideimg2" > 
-								<img src="images/menu/nr.png" data-animate="pulse" data-delay="3000" class="slideimg" > 
+								<img src="images/menu/wilal.png" alt="Wil" data-animate="pulse" data-delay="2000" class="slideimg" > 
+								<img src="images/menu/b.png"  alt="B"  data-animate="pulse" data-delay="2500" class="slideimg2" > 
+								<img src="images/menu/nr.png"  alt="NR"  data-animate="pulse" data-delay="3000" class="slideimg" > 
 								<br><br>
 							</div>
 

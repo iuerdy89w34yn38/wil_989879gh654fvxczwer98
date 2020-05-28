@@ -32,7 +32,7 @@
 
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t1.png">
+                <img class="teamimg" src="images/team/t1.png" alt="Hamza Pervaiz">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
@@ -44,7 +44,7 @@
         </div>
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t3.png">
+                <img class="teamimg" src="images/team/t3.png"  alt="Ihtisham Khan">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
@@ -56,7 +56,7 @@
         </div>
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t2.png">
+                <img class="teamimg" src="images/team/t2.png" alt="Awais Iqbal">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
@@ -69,7 +69,7 @@
 
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t4.png">
+                <img class="teamimg" src="images/team/t4.png"  alt="Enaya">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
@@ -82,7 +82,7 @@
 
         <div class="oc-item">
             <div class="teamdiv">
-                <img class="teamimg" src="images/team/t5.png">
+                <img class="teamimg" src="images/team/t5.png"  alt="Ans Shahzad">
             </div>
             <div class="teamlayout">
                 <a href="#"><img src="images/team/layout.png" alt="Image 1"></a>
