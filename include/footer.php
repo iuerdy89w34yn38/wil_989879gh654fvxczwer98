@@ -94,7 +94,7 @@
 									</a>
 									<br>
 									<br>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+									<a href="#"><small style="display: block; margin-right: 30px;"><strong>Like us</strong><br>on Facebook</small></a>
 								</div>
 								<div class="col-lg-6 clearfix">
 									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;width: 50px;">
@@ -103,7 +103,7 @@
 									</a>
 									<br>
 									<br>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+									<a href="#"><small style="display: block; margin-right: 30px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
 								</div>
 
 							</div>
