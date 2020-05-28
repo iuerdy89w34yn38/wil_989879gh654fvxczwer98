@@ -27,7 +27,7 @@
 					============================================= -->
 					<div id="logo">
 						<a href="index" class="standard-logo" data-dark-logo="images/logo/logo-dark.png"><img src="images/logo/logo-index.png" alt="wilcode "></a>
-						<a href="index" class="retina-logo" data-dark-logo="images/logo/logo-dark@2x.png"><img src="images/logo/logo-index.png" alt="wilcode Logo"></a>
+						<a href="index" class="retina-logo" data-dark-logo="images/logo/logo-dark.png"><img src="images/logo/logo-index.png" alt="wilcode Logo"></a>
 					</div><!-- #logo end -->
 
 				<!-- Primary Navigation
