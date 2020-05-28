@@ -65,46 +65,31 @@
 
 					<div class="col_one_third col_last">
 
+							<h5>Message Us:</h5>
 
 
-						<div class="widget subscribe-widget clearfix">
-							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-							<div class="widget-subscribe-form-result"></div>
-							<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="nobottommargin">
-								<div class="input-group divcenter">
-									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="icon-email2"></i></div>
-									</div>
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-									<div class="input-group-append">
-										<button class="btn btn-success" type="submit">Subscribe</button>
-									</div>
-								</div>
-							</form>
-						</div>
+						 <form action="" method="post">
+                         <div class="form-row">
+                             <div class="form-group col-md-6">
+                               <input id="Full Name" name="name" placeholder="Full Name" class="form-control" type="text">
+                             </div>
+                             <div class="form-group col-md-6">
+                               <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
+                             </div>
+                           </div>
+                         <div class="form-row">
+                             
 
-						<div class="widget clearfix" style="margin-bottom: -20px;">
+                             <div class="form-group col-md-12">
+                                       <textarea id="comment" name="msg" cols="20" rows="2" placeholder="Your Message"class="form-control"></textarea>
+                             </div>
+                         </div>
+                         
+                         <div class="col-md-12">
+                             <button name="submit" type="submit" class="btn bgcolor">Submit</button>
+                         </div>
+                     </form>
 
-							<div class="row">
-
-								<div class="col-lg-6 clearfix ">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;width: 50px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-
-								</div>
-								<div class="col-lg-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;width: 50px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									
-								</div>
-
-							</div>
-
-						</div>
 
 					</div>
 
