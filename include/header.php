@@ -59,12 +59,12 @@
 
 											<br><br>
 
-											<img src="images/menu/lap.png" style="width: 70%" data-animate="pulse" data-delay="400">
+											<img src="images/menu/lap.png" alt="laptop" style="width: 70%" data-animate="pulse" data-delay="400">
 
-											<img src="images/menu/mob.png" style="width: 20%" data-animate="bounceIn" data-delay="500">
+											<img src="images/menu/mob.png" alt="mobile" style="width: 20%" data-animate="bounceIn" data-delay="500">
 											
 											<center>
-											<img src="images/logo/logo-dark.png" style="height: 150px" data-animate="fadeIn" data-delay="600">
+											<img src="images/logo/logo-dark.png" alt="logo" style="height: 150px" data-animate="fadeIn" data-delay="600">
 											</center>
 
 										</div>
@@ -229,33 +229,33 @@
 										<div>
 											<br>
 										<center>
-											<img src="images/menu/wilal.png" data-animate="fadeIn" data-delay="500" style="width: 5%">
+											<img src="images/menu/wilal.png" alt="Wil " data-animate="fadeIn" data-delay="500" style="width: 5%">
 
-											<img src="images/menu/html5.png" data-animate="pulse" data-delay="600" style="width: 5%">
+											<img src="images/menu/html5.png"  alt="HTML " data-animate="pulse" data-delay="600" style="width: 5%">
 
-											<img src="images/menu/css3.png" data-animate="pulse" data-delay="700" style="width: 5%">
+											<img src="images/menu/css3.png" alt="CSS "  data-animate="pulse" data-delay="700" style="width: 5%">
 
-											<img src="images/menu/ang.png" data-animate="pulse" data-delay="900" style="width: 5%">
+											<img src="images/menu/ang.png"  alt="ANG"  data-animate="pulse" data-delay="900" style="width: 5%">
 
-											<img src="images/menu/php.png" data-animate="pulse" data-delay="1100" style="width: 8%">
+											<img src="images/menu/php.png"  alt=" PHP"  data-animate="pulse" data-delay="1100" style="width: 8%">
 
-											<img src="images/menu/db.png" data-animate="pulse" data-delay="1300" style="width: 5%">
+											<img src="images/menu/db.png"  alt="DB "  data-animate="pulse" data-delay="1300" style="width: 5%">
 
-											<img src="images/menu/lv.png" data-animate="pulse" data-delay="1500" style="width: 6%">
+											<img src="images/menu/lv.png"  alt="Laravel "  data-animate="pulse" data-delay="1500" style="width: 6%">
 
-											<img src="images/menu/asp.png" data-animate="pulse" data-delay="1800" style="width: 5%">
-
-
-											<img src="images/menu/ios.png" data-animate="pulse" data-delay="2000" style="width: 5%">
-
-											<img src="images/menu/and.png" data-animate="pulse" data-delay="2200" style="width: 5%">
-
-											<img src="images/menu/chash.png" data-animate="pulse" data-delay="2400" style="width: 6%">
-
-											<img src="images/menu/swift.png" data-animate="pulse" data-delay="2600" style="width: 5%">
+											<img src="images/menu/asp.png"  alt="ASP "  data-animate="pulse" data-delay="1800" style="width: 5%">
 
 
-											<img src="images/menu/wilar.png" data-animate="fadeIn" data-delay="2800" style="width: 6%">
+											<img src="images/menu/ios.png"  alt="IOS "  data-animate="pulse" data-delay="2000" style="width: 5%">
+
+											<img src="images/menu/and.png"  alt=" Android"  data-animate="pulse" data-delay="2200" style="width: 5%">
+
+											<img src="images/menu/chash.png"  alt=" C#"  data-animate="pulse" data-delay="2400" style="width: 6%">
+
+											<img src="images/menu/swift.png"  alt="Swift" data-animate="pulse" data-delay="2600" style="width: 5%">
+
+
+											<img src="images/menu/wilar.png"   alt=" Wil" data-animate="fadeIn" data-delay="2800" style="width: 6%">
 											
 
 										</center>
@@ -268,11 +268,11 @@
 								<ul  data-animate="pulse" data-speed="900" style="  animation-duration: 0.3s;" >
 
 
-									<li><a href="graphics-adobe-photoshop"><div><img src="images/icons/ps.svg" class="menuico"> Adobe Photoshop</div></a></li>
-									<li><a href="graphics-adobe-illustrtator"><div><img src="images/icons/ai.svg" class="menuico"> Adobe Illustrator</div></a></li>
-									<li><a href="graphics-corel-draw"><div><img src="images/icons/cd.svg" class="menuico"> Corel Draw </div></a></li>
-									<li><a href="graphics-gimp"><div><img src="images/icons/gimp.svg" class="menuico"> GIMP</div></a></li>
-									<li><a href="graphics-adobe-indesign"><div><img src="images/icons/id.svg" class="menuico">Adobe InDesign</div></a></li>
+									<li><a href="graphics-adobe-photoshop"><div><img  alt="PS"  src="images/icons/ps.svg" class="menuico"> Adobe Photoshop</div></a></li>
+									<li><a href="graphics-adobe-illustrtator"><div><img src="images/icons/ai.svg" class="menuico"  alt="AI" > Adobe Illustrator</div></a></li>
+									<li><a href="graphics-corel-draw"><div><img src="images/icons/cd.svg" class="menuico" alt="Corel Draw" > Corel Draw </div></a></li>
+									<li><a href="graphics-gimp"><div><img src="images/icons/gimp.svg" class="menuico"  alt="GIMP" > GIMP</div></a></li>
+									<li><a href="graphics-adobe-indesign"><div><img src="images/icons/id.svg" class="menuico"  alt="Adobe InDesign" >Adobe InDesign</div></a></li>
 
 
 								</ul>
@@ -358,7 +358,7 @@
 										<div>
 											<center>
 												
-											<img src="images/menu/promo.png" data-animate="pulse" data-delay="500" style="width: 80%">
+											<img  alt="Promotions"  src="images/menu/promo.png" data-animate="pulse" data-delay="500" style="width: 80%">
 
 											</center>
 										</div>
